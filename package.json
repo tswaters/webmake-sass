@@ -1,0 +1,29 @@
+{
+  "name": "webmake-sass",
+  "version": "0.1.0",
+  "description": "Require SASS files with Webmake",
+  "keywords": [
+    "browser",
+    "browserify",
+    "bundle",
+    "cjs",
+    "commonjs",
+    "deploy",
+    "json",
+    "make",
+    "require",
+    "css",
+    "sass",
+    "web",
+    "webmake"
+  ],
+  "author": "Adam Daniel <adam@acdaniel.com>",
+  "dependencies": {
+    "deferred": "~0.6.5",
+    "node-sass": "~0.7.0"
+  },
+  "peerDependencies": {
+    "webmake": "~0.3.19"
+  },
+  "license": "MIT"
+}
