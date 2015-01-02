@@ -2,7 +2,7 @@ var sass = require('node-sass'),
     path = require('path'),
     deferred = require('deferred');
 
-exports.extension = ['sass'];
+exports.extension = ['sass', 'scss'];
 exports.type = 'css';
 
 function compileSass(src, info) {
